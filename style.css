@@ -1,0 +1,120 @@
+body {
+
+    background-color: #cccccc;
+    background-image: radial-gradient(red, black);
+    color: whitesmoke;
+    display: block;
+  }
+  
+  h1 {
+    font-size: 45px;
+    margin: auto;
+    color: silver;
+    font-family: 'Righteous', cursive;
+  }
+
+  p {
+    margin: auto;
+  }
+
+  #title {
+    flex-wrap: wrap;
+    padding: 10px 25px 10px 25px;
+    margin: 30px 10px 30px 10px;
+  }
+
+  div {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gif-area {
+    color: white;
+    margin: 0px auto 70px auto; 
+    width: 60%;  
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .gif-area input {
+    color: Red;
+  }
+  
+  #form-gif-request {
+    padding: 10px;
+    margin: 5px 5px 5px 30px;
+    display: block;
+  }
+  
+  label {
+    font-weight: normal;
+    display: block;
+    margin: auto;
+  }
+
+  input {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+    border: 1px solid #444444;
+  }
+  
+  input, .btn:focus, btn:active {
+    outline: none;
+  }
+
+  #bot-test {
+    display: flex;
+    align-items: center;
+  }
+  #notRobot {
+    width: 50px;
+    border: 3px solid transparent;
+  }
+  span {
+    color: silver;
+
+  }
+  
+  .btn {
+    display: block;
+    padding: 15px;
+    font-family: 'Righteous', cursive;
+    color: silver;
+    margin: 10px auto 10px auto;
+    border-radius: 7px;
+    background-color: black;
+  }
+  
+  .btn:focus {
+    color: #ececec;
+    background-color: #999696;
+    border: 2px solid rgb(238, 237, 237);
+    transition: .5s;
+  }
+
+  .btn:hover {
+    background-color: #b3a8a8;
+    border: 2px solid rgb(59, 50, 50);
+    transition: .5s;
+  }
+
+  
+  img {
+    max-height: 400px;
+    max-width: 100%;
+    margin: 20px auto 20px auto;
+  }
+  
+  #filler {
+    width: 100%;
+    clear: both;
+  }
+  
+  #fail-text {
+    min-height: 25px;
+    width: 100%;
+    clear: both;
+  }
