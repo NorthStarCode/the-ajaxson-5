@@ -25,7 +25,7 @@ function fetchAndDisplayGif(event) {
     if (testRobot != 5) {
       $("#gif").attr("hidden", true);
       $("#notRobot").attr("style", "border: 5px solid yellow");
-      $("#fail-text").text("You dont get a GIF!");
+      $("#fail-text").text("WRONG! No GIF!");
       $("#fail-text").attr("style", "color: yellow");
       
     }
